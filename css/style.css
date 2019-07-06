@@ -354,3 +354,13 @@ footer .column i+i{
     padding: 0.0.5em;
 }
 
+/* Sticky Class */
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    box-shadow: 10px 10px 5px grey;
+    z-index: 9999;
+    transition: all 1.5s ease;
+}
