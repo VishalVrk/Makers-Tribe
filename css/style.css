@@ -116,7 +116,7 @@ header .container .col-md-7 button{
 /* Section 1 */
 
 .section-1{
-    padding: 20vmin 0;
+    padding: 10vmin 0;
 }
 
 .section-1 .row .col-md-6 .pray img{
@@ -296,7 +296,7 @@ header .container .col-md-7 button{
 }
 
 .section-4 .team{
-    padding: 10vmin 4vmin;
+    padding: 0vmin 4vmin 10vmin 4vmin;
 }
 
 .section-4 .card{
@@ -328,7 +328,12 @@ footer{
     overflow: hidden;
     padding: 14vmin 18vmin;
 }
-
+footer h1{
+    text-align: left;
+}
+footer p{
+    text-align: left;
+}
 footer p>span{
     color: #ff512f;
 }
@@ -352,6 +357,45 @@ footer .column i{
 
 footer .column i+i{
     padding: 0.0.5em;
+}
+
+/* Gallery Section */
+.section-5{
+    background: var(--bggradient);
+
+}
+.container-gallery{
+
+    max-width: 760px;
+    margin: auto;
+    margin-bottom: 15vmin;
+}
+
+.container-gallery h1,p{
+    margin-top: 15vmin;
+    text-align: center;
+    color: #e5e5e5;
+    font-family: var(--Rubik);
+}
+
+.main-img img,
+.imgs img{
+    width: 100%;
+   
+}
+
+.imgs{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 5px;
+    cursor: pointer;
+}
+
+/* Fade in animations */
+@keyframes fadeIn{
+    to{
+        opacity: 1;
+    }
 }
 
 /* Sticky Class */
